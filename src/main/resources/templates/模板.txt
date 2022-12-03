@@ -1,0 +1,10 @@
+今天是：{{riqi.DATA}}
+{{beizhu.DATA}}
+所在城市：{{chengshi.DATA}}
+天气：{{tianqi.DATA}}
+当前体感温度：{{currenttemp.DATA}} 度
+最低温度：{{low.DATA}} 度
+最高温度：{{high.DATA}} 度
+距离你的生日还有 {{shengri.DATA}} 天
+甜甜的:{{caihongpi.DATA}}
+{{jinju.DATA}}
