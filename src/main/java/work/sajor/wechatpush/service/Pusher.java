@@ -80,7 +80,7 @@ public class Pusher {
         WxMpTemplateMessage templateMessage = WxMpTemplateMessage.builder()
                 .toUser(openId)
                 .templateId(templateId)
-                //.url("https://30paotui.com/")//点击模版消息要访问的网址
+//                .url("https://30paotui.com/")//点击模版消息要访问的网址
                 .build();
         //3,如果是正式版发送模版消息，这里需要配置你的信息
         //        templateMessage.addData(new WxMpTemplateData("name", "value", "#FF00FF"));
@@ -136,7 +136,7 @@ public class Pusher {
         WxMpTemplateMessage templateMessage = WxMpTemplateMessage.builder()
                 .toUser(openId)
                 .templateId(templateId)
-                //.url("https://30paotui.com/")//点击模版消息要访问的网址
+                .url("https://www.baidu.com/")//点击模版消息要访问的网址
                 .build();
         //3,如果是正式版发送模版消息，这里需要配置你的信息
         //        templateMessage.addData(new WxMpTemplateData("name", "value", "#FF00FF"));

@@ -25,7 +25,7 @@ public class JobWorker {
 
     @Scheduled(cron = "0 0/60 * * * ?")
     public void goodMorning(){
-        pusherService.push(openId);
+        pusherService.push2(openId);
     }
 
 }
